@@ -1,0 +1,23 @@
+mkdir assets app tests
+cat > index.html
+cd assets/
+mkdir css js img
+cd css/
+cat > main.css
+cd ../js/
+mkdir libs plugins
+cd ../../app/
+cat > config.js
+cat > main.js
+cat > app.js
+
+copy favicon.ico and apple-touch-icons
+
+copy .htaccess, humans.txt, crossdomain.xml, 404.html and robots.txt
+
+copy jquery, modernizr, backbone, lodash, almond to js/libs
+
+configure config.js ->load main.js to initialize the application
+
+copy main.js code -> load Application & main router
+
